@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Bookstore - Catalog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    function redirect()
+    {
+    location.replace("success_html")
+    }
+    </script>
+</head>
+<body>
+  <header>
+    <div class="box">
+      <a href="index.html"  >
+        <img src="images/bookstore_logo_original.jpg" alt="bookstore_logo" width="80" height="80">
+      </a>
+      <span style="text-align: center;">Catalog of our bookstore</span>
+  </div>
+  </header>    
+ 
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="login_new.html">Login</a>
+    <a href="cat_new.html">Catalog</a>
+    <div class="subnav">
+      <button class="subnavbtn">Pages<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="about-us.html">About Us</a>
+        <a href="our-services.html">Our Services</a>
+        <a href="contact-us.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <table align="center" cellspacing="0" cellpadding="25" border="3">
+      <tr>
+      <th>Branch</th>
+      <th>Book</th>
+      <th>Book Name</th>
+      <th>Publisher</th>
+      <th>cart</th>
+      </tr>
+      <tr>
+      <td>CSE</td>
+      <td><img src="https://th.bing.com/th/id/R.b287df5fe7b3a724559c3b132b0aadcf?rik=60RquoyVASe9ZQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-ea8UouOlI3U%2fUF1ibu0aO-I%2fAAAAAAAAOhI%2f8eMb-JoXIKU%2fs1600%2fprogramming-in-ansi-c-6e-balaguruswamy-700x700-imadbm5su8rafr4z.jpeg&ehk=gpxTKSMhhUs5%2fi8Eqd7W0BX8uJ3yD9VLK0Y2hvRiLO4%3d&risl=&pid=ImgRaw&r=0" width="150" height="150"> </td>
+      <td>Programming in C Balaguruswamy</td>
+      <td>VRB publications</td>
+      <td><button onclick="redirect()">ADD TO CART </button></td>
+      </tr>
+      <tr>
+      <td>CSE</td>
+      <td><img src="https://n4.sdlcdn.com/imgs/j/j/m/A-Textbook-of-Java-Programming-SDL169067688-1-df72a.jpg" width="150" height="150"> </td>
+      <td>TEXTBOOK OF JAVAPROGRAMMING</td>
+      <td>WILEY</td>
+      <td><button type="submit">ADD TO CART </button></td>
+      </tr>
+      <tr>
+      <td>CSE</td>
+      <td><img src="https://images-na.ssl-images-amazon.com/images/I/51VV+DwoRYL._SY344_BO1,204,203,200_.jpg" width="150" height="150"> </td>
+      <td>Operating Systems </td>
+      <td>WILeY</td>
+      <td><button onclick="redirect()">ADD TO CART </button></td>
+      </tr>
+      <tr>
+      <td>CSE</td>
+      <td><img src="https://i.pinimg.com/originals/7a/b5/a0/7ab5a06e8a4c0447ca70fceb7554c8e6.jpg" width="150" height="150"> </td>
+      <td>Automata Theory,Languages and Computation</td>
+      <td>Pearson</td>
+      <td><button onclick="redirect()">ADD TO CART </button></td>
+      </tr>
+      <tr>
+      <td>CSE</td>
+      <td><img src="https://th.bing.com/th/id/OIP.-TWA1ArLDF4qj6ll209wfwAAAA?pid=ImgDet&rs=1" width="150" height="150"> </td>
+      <td>Data Structures using C and C++</td>
+      <td>WILEY</td>
+      <td><button onclick="redirect()">ADD TO CART </button></td>
+      </tr>
+      </table>
+  </main>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* Add your CSS styles here */
+header {
+  background: url(https://i.pinimg.com/564x/6c/d6/54/6cd6545440cdd9f488a945fc37a8fc13.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-color:blueviolet;
+    color:honeydew;
+    padding-left: 20px;
+
+  }
+header  .box {
+    display: flex;
+    padding-block: 20px;
+    align-items:center;
+    vertical-align: baseline;
+    font: italic 30px "Fira Sans", serif;
+    
+ }
+  .navbar{
+    overflow: hidden;
+    background-color: bisque;
+  }
+  .navbar a {
+   float: left;
+   font-size: 16px;
+   color:black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration:none;
+  }
+  .subnav{
+    float: left;
+    overflow: hidden;
+  }
+  .subnav .subnavbtn{
+    font-size: 16px;
+    border:none;
+    outline: none;
+    color:blue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .subnav:hover .subnavbtn{
+    background-color: crimson;
+  }
+  .subnav-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content a{
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  .subnav-content a:hover{
+    background-color: brown;
+    color:black;
+  }
+  .subnav:hover .subnav-content{
+    display: block;
+  }
+  .offer{
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1517842706803-3f0f99596c34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-color: darkseagreen;
+    overflow: hidden;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  main{
+    background-color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .homepage_bg{
+    
+     background: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80);
+	background-size: 100%;
+	background-repeat: no-repeat;
+  }
+  .homepage_bg  .bodyimage {
+    display: flex;
+    padding-block: 20px;
+    align-items:center;
+    vertical-align: baseline;
+    font: italic 30px "Fira Sans", serif;
+   
+  }
